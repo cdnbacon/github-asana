@@ -11,12 +11,14 @@ Installation
 You need need to set the `ASANA_KEY` environment variable to your [Asana API Key].
 
 Once that's set, git-asana depends on express.js and require.js. To get started locally:
+
     git clone https://github.com/jamieforrest/github-asana.git
     cd github-asana
     npm install
     node app.js
 
 To run on Heroku is even easier:
+
     git clone https://github.com/jamieforrest/github-asana.git
     cd github-asana
     heroku create -s cedar
